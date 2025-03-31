@@ -1,6 +1,6 @@
 import { serve } from "https://deno.land/std/http/server.ts";
 
-const UUID: string = Deno.env.get("UUID") || "e8efe14a-27c6-49e2-bef3-b7a3d390d860";
+const UUID: string = Deno.env.get("UUID") || "a63af992-10b3-4e33-a828-a393c90d8261";
 const SUB_PATH: string = Deno.env.get("SUB_PATH") || "sub";  //获取订阅路径
 const XPATH: string = Deno.env.get("XPATH") || "xhttp";      // 节点路径
 const DOMAIN: string = Deno.env.get("DOMAIN") || "vinhkl-mgdjuhg-77.deno.dev";         // deno分配的域名必填，不带https://前缀，例如：xxxx.deno.dev      
